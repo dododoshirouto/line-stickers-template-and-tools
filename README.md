@@ -1,4 +1,6 @@
-# LINEスタンプ テンプレ & 画像分割ツール
+# LINEスタンプ テンプレ & 画像分割ツール LINE Stickers Template & Image Segmentation Tool
+
+## LINEスタンプ テンプレ & 画像分割ツール
 
 テンプレは、どんなツールでも使いやすい透過PNG画像です。
 
