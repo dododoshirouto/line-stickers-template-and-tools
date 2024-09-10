@@ -21,6 +21,8 @@ if %errorlevel% neq 0 (
 
 rem ドラッグ＆ドロップされたファイルを変数に設定
 set INPUT_IMAGE=%1
+rem ダブルクオートが含まれている場合、それを削除
+for %%I in (%INPUT_IMAGE%) do set INPUT_IMAGE=%%~I
 
 rem ファイルが指定されていない場合、入力を促す
 if "%INPUT_IMAGE%"=="" (
